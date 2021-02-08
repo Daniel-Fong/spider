@@ -9,10 +9,10 @@ public class CookieSaver {
             String cookie = html.substring(index + offset, endIndex);
             cookies += cookie;
             String remove = "Set-Cookie: " + cookie;
-            System.out.println(remove);
             // remove cookie from string
             html = html.replace(remove, "");
+            
         }
-        return cookies;
+        return cookies.substring(0, cookies.length()-1);
     }
 }

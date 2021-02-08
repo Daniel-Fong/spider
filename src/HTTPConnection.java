@@ -46,8 +46,8 @@ public class HTTPConnection {
             out.writeBytes("Content-Type: application/x-www-form-urlencoded\r\n");
             out.writeBytes("Content-Length: " + contentLength + "\r\n");
             out.writeBytes("Host: " + "www.siliconmtn.com" + "\n\n");
-
             out.writeBytes(requestBody);
+            
             String inData;
             String newLine = System.lineSeparator();
             while((inData = in.readLine()) != null && (in.ready()) ) {
@@ -56,7 +56,6 @@ public class HTTPConnection {
         } catch (Exception e) {
             System.out.println("Unable to connect to Server" + e);
         }
-        System.out.println(html);
         return html.toString();
     }
 
@@ -70,8 +69,8 @@ public class HTTPConnection {
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             out.writeBytes("GET " + link + " HTTP/1.1 \n");
-            out.writeBytes("Host: " + "www.siliconmtn.com" + "\n\n");
-            out.writeBytes("cookie: " + cookies);
+            out.writeBytes("Host: " + "www.siliconmtn.com" + "\n");
+            out.writeBytes("Cookie: " + cookies + "\n\n");
             String inData;
             String newLine = System.lineSeparator();
             while((inData = in.readLine()) != null && (in.ready()) ) {
@@ -80,7 +79,6 @@ public class HTTPConnection {
         } catch (Exception e) {
             System.out.println("Unable to connect to Server" + e);
         }
-        System.out.println(html.toString());
         return html.toString();
     }
 }

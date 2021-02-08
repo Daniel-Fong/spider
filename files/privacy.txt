@@ -1,18 +1,17 @@
 HTTP/1.1 200 200
-Date: Thu, 14 Jan 2021 23:59:57 GMT
+Date: Fri, 05 Feb 2021 04:13:10 GMT
 Content-Type: text/html;charset=UTF-8
-Transfer-Encoding: chunked
+Content-Length: 16339
 Connection: keep-alive
-Set-Cookie: AWSALB=M+nlI6Ncknf1FI0ClBdWS1vV2G8lDFfSreclLyUZmushUTRK19FIJylJ4jWdK8SNsoMl+zZBJ5lkSmsf35Ws8lwVdyopzeLAdVjQ84B6HVR2jaFJ6YFUhqRgjwoZ; Expires=Thu, 21 Jan 2021 23:59:57 GMT; Path=/
-Set-Cookie: AWSALBCORS=M+nlI6Ncknf1FI0ClBdWS1vV2G8lDFfSreclLyUZmushUTRK19FIJylJ4jWdK8SNsoMl+zZBJ5lkSmsf35Ws8lwVdyopzeLAdVjQ84B6HVR2jaFJ6YFUhqRgjwoZ; Expires=Thu, 21 Jan 2021 23:59:57 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: AWSALB=ZJaBXYfNsNNLOszYZ33ukKBN372LAidAf7PcPwpq/9acEJlt07Ldg2R00Kby5FNGBjyAKBFxkTmih6jcH6Ac5mJx8t6C0uMBYrpNqDpOw/ZnzrRc3HkYP/DnNWtq; Expires=Fri, 12 Feb 2021 04:13:10 GMT; Path=/
+Set-Cookie: AWSALBCORS=ZJaBXYfNsNNLOszYZ33ukKBN372LAidAf7PcPwpq/9acEJlt07Ldg2R00Kby5FNGBjyAKBFxkTmih6jcH6Ac5mJx8t6C0uMBYrpNqDpOw/ZnzrRc3HkYP/DnNWtq; Expires=Fri, 12 Feb 2021 04:13:10 GMT; Path=/; SameSite=None; Secure
 Server: Apache/2.4.39 (Amazon) OpenSSL/1.0.2k-fips
 X-Frame-Options: DENY
-Set-Cookie: JSESSIONID=AAAD94CCBF6BF19F5A1D08FB670A7F1D; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=77AE7CB912C91842CD6ACFE1BEF38B37; Path=/; Secure; HttpOnly
 Cache-Control: private, max-age=0, no-cache
 Content-Language: en-US
 Vary: Accept-Encoding
 
-3692
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -35,7 +34,7 @@ Vary: Accept-Encoding
   })();
 </script>
 <link href="/binary/themes//BS4_PARALAX/scripts/modules.css" type="text/css" rel="stylesheet" />
-<link href="/sb/script/SMT_24/1593633038515/BS4_PARALAX/SMT_24_2.css" type="text/css" rel="stylesheet" title="main"/>
+<link href="/sb/script/SMT_24/1610729859705/BS4_PARALAX/SMT_24_2.css" type="text/css" rel="stylesheet" title="main"/>
 
 <script type="text/javascript" src="/binary/common/scripts/global.js"></script>
 <script type="text/javascript" src="/sb/script/SMT_24/1585780399084/SMT.js"></script>
@@ -202,3 +201,64 @@ Your use of this site is subject to our&nbsp;
 	
 <div class="row copyright">
 <div class="col-sm-4 text-center">
+<a href="mailto:info@siliconmtn.com">info@siliconmtn.com</a>
+</div>
+
+<div class="col-sm-4 text-center">&copy; 2020 Silicon Mountain Technologies</div>
+
+<div class="col-sm-4 text-center">
+<a href="tel:7202604768">720-260-4768</a>
+</div>
+</div>
+
+<div class="row copyright">
+<div class="offset-sm-4 col-sm-4 text-center">
+<a href="/privacy">Privacy Policy</a> |
+
+<a href="/terms">Terms &amp; Conditions</a>
+</div>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script><script src="/binary/common/scripts/smt/bootstrap/util_module.js"></script>
+		<script src="/binary/themes//BS4_PARALAX/scripts/module.js"></script>
+		<script src="/binary/themes//BS4_PARALAX/scripts/parallax.min.js"></script>
+		
+		<div id="loadingBackground" class="d-none" >
+			<div class="fa-3x">
+				<em class="fas fa-sync fa-spin pr-0 mr-0"></em>
+				<span id="loadingText" class="font-weight-bold">
+				Content Loading, Please Wait.</span>
+			</div>
+		</div>
+		<script>
+			
+		
+			addLoadEvent(function() {
+				
+		
+				// Auto select the search box on the main header
+			    $('.dropdown input[type=search]').click(function(e){
+			        e.stopPropagation();
+			    });
+		
+				$('.nav-item-search').on('show.bs.dropdown', function() {
+					setTimeout(function(){$('#menu-ticket-search').focus();},0);
+				});
+				
+				
+				var prevScrollpos = window.pageYOffset;
+				window.onscroll = function() {
+				  var currentScrollPos = window.pageYOffset;
+				  if (prevScrollpos > currentScrollPos) {
+				    $('#mainNav').addClass('top-scroll');
+				  } else {
+				    $('#mainNav').removeClass('top-scroll');
+				  }
+				  prevScrollpos = currentScrollPos;
+				} 
+				
+				BS4.initManageTool();
+			});
+		</script>
+	</body>
