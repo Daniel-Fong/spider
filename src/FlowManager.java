@@ -57,8 +57,11 @@ public class FlowManager {
         while (queue.size() > 0) {
                 // grab link
                 String protectedLink = queue.poll();
+                // get link while persisting session
                 String html = connection.getProtectedWebPage(protectedLink, cookies);
+                // save html
                 HTMLSaver.saveHTML(html, "protectedLink" + count);
+                // increment count for file naming
                 count++;
         }
     }
