@@ -1,13 +1,13 @@
 HTTP/1.1 200 200
-Date: Fri, 05 Feb 2021 04:13:08 GMT
+Date: Tue, 09 Feb 2021 18:38:45 GMT
 Content-Type: text/html;charset=UTF-8
 Content-Length: 10346
 Connection: keep-alive
-Set-Cookie: AWSALB=xCFQnf25SR3PdkUmqqyErbau8VcskLsCyBqP3G2tzZXIcJNDN1u0HGpVQB4LrxBLa8wEnUxWJjDIc9WiZeqThMhWiM6yw1RB1vk8x5eUa6B+URmPOO4+Uimxra9p; Expires=Fri, 12 Feb 2021 04:13:08 GMT; Path=/
-Set-Cookie: AWSALBCORS=xCFQnf25SR3PdkUmqqyErbau8VcskLsCyBqP3G2tzZXIcJNDN1u0HGpVQB4LrxBLa8wEnUxWJjDIc9WiZeqThMhWiM6yw1RB1vk8x5eUa6B+URmPOO4+Uimxra9p; Expires=Fri, 12 Feb 2021 04:13:08 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: AWSALB=JDAtGqYKeA0ANWnZK8Sw0c5sbvt2DTvDV9L7JzRdaHpzKM8nABTWm41tau5/MmKvQku9UGrptXsX+0o75KZlxeU6busBXxfJ7tlJIOaXBGgK3SE0l9v46mlfYbtb; Expires=Tue, 16 Feb 2021 18:38:45 GMT; Path=/
+Set-Cookie: AWSALBCORS=JDAtGqYKeA0ANWnZK8Sw0c5sbvt2DTvDV9L7JzRdaHpzKM8nABTWm41tau5/MmKvQku9UGrptXsX+0o75KZlxeU6busBXxfJ7tlJIOaXBGgK3SE0l9v46mlfYbtb; Expires=Tue, 16 Feb 2021 18:38:45 GMT; Path=/; SameSite=None; Secure
 Server: Apache/2.4.39 (Amazon) OpenSSL/1.0.2k-fips
 X-Frame-Options: DENY
-Set-Cookie: JSESSIONID=A6EF42F9295EE6435D6E59C9763DE1DC; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=3514E366B6283CD1981A819EA3B1300B; Path=/; Secure; HttpOnly
 Cache-Control: private, max-age=0, no-cache
 Content-Language: en-US
 Vary: Accept-Encoding
@@ -146,3 +146,58 @@ Vary: Accept-Encoding
 <div class="col-sm-4 text-center">&copy; 2020 Silicon Mountain Technologies</div>
 
 <div class="col-sm-4 text-center">
+<a href="tel:7202604768">720-260-4768</a>
+</div>
+</div>
+
+<div class="row copyright">
+<div class="offset-sm-4 col-sm-4 text-center">
+<a href="/privacy">Privacy Policy</a> |
+
+<a href="/terms">Terms &amp; Conditions</a>
+</div>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script><script src="/binary/common/scripts/smt/bootstrap/util_module.js"></script>
+		<script src="/binary/themes//BS4_PARALAX/scripts/module.js"></script>
+		<script src="/binary/themes//BS4_PARALAX/scripts/parallax.min.js"></script>
+		
+		<div id="loadingBackground" class="d-none" >
+			<div class="fa-3x">
+				<em class="fas fa-sync fa-spin pr-0 mr-0"></em>
+				<span id="loadingText" class="font-weight-bold">
+				Content Loading, Please Wait.</span>
+			</div>
+		</div>
+		<script>
+			
+		
+			addLoadEvent(function() {
+				
+		
+				// Auto select the search box on the main header
+			    $('.dropdown input[type=search]').click(function(e){
+			        e.stopPropagation();
+			    });
+		
+				$('.nav-item-search').on('show.bs.dropdown', function() {
+					setTimeout(function(){$('#menu-ticket-search').focus();},0);
+				});
+				
+				
+				var prevScrollpos = window.pageYOffset;
+				window.onscroll = function() {
+				  var currentScrollPos = window.pageYOffset;
+				  if (prevScrollpos > currentScrollPos) {
+				    $('#mainNav').addClass('top-scroll');
+				  } else {
+				    $('#mainNav').removeClass('top-scroll');
+				  }
+				  prevScrollpos = currentScrollPos;
+				} 
+				
+				BS4.initManageTool();
+			});
+		</script>
+	</body>

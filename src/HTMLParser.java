@@ -11,7 +11,7 @@ public class HTMLParser {
      * @param String html
      * @return List<String> linksArr
      */
-    public static List<String> getLinks (String html) {
+    public List<String> getLinks (String html) {
         // jsoup parse on html
         Document document = Jsoup.parse(html);
         // select hrefs from parsed html
