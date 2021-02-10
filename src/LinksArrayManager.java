@@ -5,7 +5,7 @@ public class LinksArrayManager {
     /**
      * creates queue
      * @param String firstLink
-     * @return List<String> linksArr
+     * @return List<String>
      */
     public static List<String> createLinksArr(String firstLink) {
         List<String> linksArr = new ArrayList<>();
@@ -18,7 +18,7 @@ public class LinksArrayManager {
      * 
      * @param String link
      * @param List<String> linksArr
-     * @return
+     * @return boolean
      */
     public static Boolean inArray(String link, List<String> linksArr) {
         // loop through links arr

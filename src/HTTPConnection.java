@@ -7,7 +7,7 @@ public class HTTPConnection {
     /**
      * Connect and get page
      * @param String link
-     * @return String html
+     * @return String
      */
     public String getWebPage(String link) {
         // string builder for html

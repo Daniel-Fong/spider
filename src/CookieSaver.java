@@ -2,7 +2,7 @@ public class CookieSaver {
     /**
      * gets cookies from html
      * @param String html
-     * @return String cookies
+     * @return String
      */
     public static String getCookies(String html) {
         String cookies = "";

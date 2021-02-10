@@ -9,7 +9,7 @@ public class HTMLParser {
     /**
      * parses links from html
      * @param String html
-     * @return List<String> linksArr
+     * @return List<String>
      */
     public List<String> getLinks (String html) {
         // jsoup parse on html
